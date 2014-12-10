@@ -1,4 +1,4 @@
 coinpp
 ======
 
-A C++11 crypto-currency library.
+A C++11 cryptographic currency library.
