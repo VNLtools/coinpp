@@ -51,17 +51,12 @@ void stack::start(const std::map<std::string, std::string> & args)
          * Set the arguments.
          */
         stack_impl_->get_configuration().set_args(args);
-
+    
+        /**
+         * Add hard-coded bootstrap nodes.
+         */
         stack_impl_->get_configuration().bootstrap_nodes().push_back(
-            std::make_pair("94.102.60.170", 55555)
-        );
-
-        stack_impl_->get_configuration().bootstrap_nodes().push_back(
-            std::make_pair("72.47.234.147", 41134)
-        );
-
-        stack_impl_->get_configuration().bootstrap_nodes().push_back(
-            std::make_pair("72.47.234.148", 45874)
+            std::make_pair("127.0.0.1", 34957)
         );
 
         /**
