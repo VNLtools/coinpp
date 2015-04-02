@@ -21,7 +21,7 @@
 #ifndef COIN_TCP_TRANSPORT_HPP
 #define COIN_TCP_TRANSPORT_HPP
 
-#define USE_TLS 1
+#define USE_TLS 0
 
 #include <cstdint>
 #include <deque>
