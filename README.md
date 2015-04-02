@@ -1,4 +1,4 @@
-coinpp
+coinpp (Coin++)
 ======
 
-A C++11 cryptographic currency library. This project will be published Q1 2015.
+A C++11 cryptographic currency library.
