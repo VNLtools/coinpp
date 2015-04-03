@@ -42,12 +42,12 @@ namespace constants {
     /**
      * The client version minor.
      */
-    enum { version_client_minor = 2 };
+    enum { version_client_minor = 0 };
 
     /**
      * The client version revision.
      */
-    enum { version_client_revision = 6 };
+    enum { version_client_revision = 1 };
     
     /**
      * The client version build.
@@ -70,12 +70,12 @@ namespace constants {
     /**
      * The version string.
      */
-    static const std::string version_string = "0.2.6";
+    static const std::string version_string = "0.0.1";
     
     /**
      * The name of the coin.
      */
-    static const std::string client_name = "Vanillacoin";
+    static const std::string client_name = "Coin++";
 
     /**
      * A coin.
@@ -130,7 +130,7 @@ namespace constants {
     /**
      * The chain start time.
      */
-    static const std::int64_t chain_start_time = 1419310800;
+    static const std::int64_t chain_start_time = 1319390810;
 
     /**
      * The number of blocks after which a coin matures.
