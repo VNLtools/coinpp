@@ -31,41 +31,7 @@ using namespace coin;
 
 checkpoints::checkpoints()
 {
-    m_checkpoints[0] = block::get_hash_genesis();
-    m_checkpoints[4000] = sha256(
-        "0000005daa461b5330897b9e8149142d6556fff12fcdf7b77eb40a6d76f1f3ad"
-    );
-    m_checkpoints[8120] = sha256(
-        "00000239d4c857d35b3b83c05287cbbb80b4f57c3d1807507ea915e7492dfa80"
-    );
-    m_checkpoints[14800] = sha256(
-        "73a4658541a0f01947333bdaad7702484109172f51cc1a1baadc1ed8b6b6dd33"
-    );
-    m_checkpoints[17200] = sha256(
-        "0000005b0acba32e7f43e2f676e0f72b0d189232a719e292623abf373e198b4f"
-    );
-    m_checkpoints[23216] = sha256(
-        "cf6621bd25c0270b382115a367823bab987ac472127265790673f1ba4e663345"
-    );
-    m_checkpoints[25037] = sha256(
-        "000000f0316fc6613116f86bb9db5d0148b11fe656504c2dee7963bda6a7f49b"
-    );
-    m_checkpoints[39152] = sha256(
-        "45efa8799d197cb8cf68434feb368ba915659466bed0c59a7501a5f44bbe637b"
-    );
-    m_checkpoints[42645] = sha256(
-        "e19e67db37789791b2a73b88e66d3437e696cc41efb507fbef133af57c2dab51"
-    );
-    m_checkpoints[44709] = sha256(
-        "a64bad605bd4964057b146af621fae6d4fa4325be74bb544480eba08211be8e1"
-    );
-    m_checkpoints[50308] = sha256(
-        "0000000003a60f5afb4fdc3dfb6aad412ddda4500646461d5516aad433271f81"
-    );
-    m_checkpoints[73568] = sha256(
-        "a9b99a0f9e04d0fdff3132d5e74fe8c7bc5b840e1c090644de704f774b53977f"
-    );
-    
+    m_checkpoints[0] = block::get_hash_genesis();    
     m_checkpoints_test_net[0] = block::get_hash_genesis_test_net();
 }
 
